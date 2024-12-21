@@ -9,7 +9,7 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    chat: sealed-secrets
+    chart: sealed-secrets
     helm:
       releaseName: sealed-secrets
   # It's possible to override helm values through different ways such as "valueFiles", "values", "valuesObject" and "parameters". 
